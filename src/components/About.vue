@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style scoped>
+/* Mantiene los estilos base */
 .about {
     font-family: 'Poppins', sans-serif;
     padding: 40px;
@@ -68,21 +69,27 @@ ul {
 
 .testimonials {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center; /* Cambiado a center para mejor distribución */
+    gap: 15px; /* Reducido el gap */
     margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Añadido padding horizontal */
 }
 
 .testimonial {
     background: linear-gradient(to bottom right, #2C2C2C, #1B1B1B);
     border-radius: 20px;
     padding: 30px;
-    max-width: 320px;
+    width: calc(33.333% - 30px); /* Ajustado para el nuevo gap */
+    min-width: 260px; /* Reducido ligeramente el min-width */
+    max-width: 320px; /* Añadido max-width para control adicional */
     text-align: center;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    flex: 0 1 auto; /* Previene el estiramiento excesivo */
 }
 
+/* Resto de estilos del testimonial sin cambios */
 .testimonial:hover {
     transform: translateY(-10px);
 }
@@ -123,5 +130,89 @@ ul {
 
 .empty-star {
     color: rgba(255, 255, 255, 0.4);
+}
+
+/* Tablets y pantallas medianas */
+@media screen and (max-width: 1024px) {
+    .about {
+        padding: 30px 15px;
+    }
+
+    .testimonials {
+        gap: 20px;
+    }
+
+    .testimonial {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Tablets pequeñas y móviles grandes */
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 25px 15px;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .testimonial {
+        width: 100%;
+        max-width: 400px;
+        margin: 0;
+    }
+}
+
+/* Móviles */
+@media screen and (max-width: 480px) {
+    .about {
+        padding: 20px 10px;
+    }
+
+    .testimonials {
+        padding: 0 10px;
+        gap: 20px;
+    }
+
+    .testimonial {
+        padding: 20px 15px;
+    }
+
+    .testimonial img {
+        width: 60px;
+        height: 60px;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .testimonial h3 {
+        font-size: 16px;
+    }
+
+    .testimonial .role {
+        font-size: 13px;
+    }
+
+    .testimonial .feedback {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+
+/* Móviles pequeños */
+@media screen and (max-width: 320px) {
+    .testimonial {
+        padding: 15px 10px;
+    }
+
+    .testimonial .feedback {
+        font-size: 12px;
+    }
 }
 </style>
