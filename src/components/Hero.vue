@@ -1,26 +1,17 @@
 <template>
   <div class="Hero-Background">
-      <img class="to-mask" src="../assets/Hero-Background.png" width="100%" height="100%"/>
+    <video class="to-mask" src="../assets/Hero Video.mp4" width="100%" height="100%" autoplay muted loop></video>
   </div>
 </template>
 
 <style>
-.Hero-Background{
+.Hero-Background {
   margin-left: 50px;
-}
-
-.Hero-Background .to-mask{
-  mask-image: url('../assets/MundoLinuxLogo.png');
-  mask-size: cover;
-  mask-repeat: no-repeat;
-  -webkit-mask-image: url('../assets/MundoLinuxLogo.png'); /* Compatibilidad con navegadores webkit */
-  -webkit-mask-size: cover;
-  -webkit-mask-repeat: no-repeat; 
 }
 </style>
 
 <script>
-export default{
+export default {
   name: "HeroView"
 }
 </script>
