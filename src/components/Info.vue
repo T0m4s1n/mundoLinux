@@ -13,13 +13,13 @@
                    <div class="hex-content">
                        <img src="../assets/icons/icon8.png" alt="Bitcoin">
                        <h3>Accesibilidad</h3>
-                       <p>Utiliza ML SecureBot desde cualquier dispositivo</p>
+                       <p>Utiliza ML SecureBot a traves de Whatsapp en cualquier dispositivo./p>
                    </div>
                </div>
                <div class="hex second-row">
                    <div class="hex-content">
                        <img src="../assets//icons/comunicacion1.png" alt="Trade Securely">
-                       <h3>Trade securely</h3>
+                       <h3>Conversaciones Seguras</h3>
                        <p>Tus conversaciones con ML SecureBot son completamente seguras</p>
                    </div>
                </div>
