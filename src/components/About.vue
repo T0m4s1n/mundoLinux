@@ -45,7 +45,6 @@ export default {
 </script>
 
 <style scoped>
-/* Mantiene los estilos base */
 .about {
     font-family: 'Poppins', sans-serif;
     padding: 40px;
@@ -69,27 +68,26 @@ ul {
 
 .testimonials {
     display: flex;
-    justify-content: center; /* Cambiado a center para mejor distribución */
-    gap: 15px; /* Reducido el gap */
+    justify-content: center;
+    gap: 25px;
     margin-top: 30px;
     flex-wrap: wrap;
-    padding: 0 20px; /* Añadido padding horizontal */
+    padding: 0 20px;
 }
 
 .testimonial {
     background: linear-gradient(to bottom right, #2C2C2C, #1B1B1B);
     border-radius: 20px;
     padding: 30px;
-    width: calc(33.333% - 30px); /* Ajustado para el nuevo gap */
-    min-width: 260px; /* Reducido ligeramente el min-width */
-    max-width: 320px; /* Añadido max-width para control adicional */
+    width: calc(33.333% - 30px);
+    min-width: 260px;
+    max-width: 320px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    flex: 0 1 auto; /* Previene el estiramiento excesivo */
+    flex: 0 1 auto;
 }
 
-/* Resto de estilos del testimonial sin cambios */
 .testimonial:hover {
     transform: translateY(-10px);
 }
@@ -132,7 +130,6 @@ ul {
     color: rgba(255, 255, 255, 0.4);
 }
 
-/* Tablets y pantallas medianas */
 @media screen and (max-width: 1024px) {
     .about {
         padding: 30px 15px;
@@ -147,7 +144,6 @@ ul {
     }
 }
 
-/* Tablets pequeñas y móviles grandes */
 @media screen and (max-width: 768px) {
     .about {
         padding: 25px 15px;
@@ -166,7 +162,6 @@ ul {
     }
 }
 
-/* Móviles */
 @media screen and (max-width: 480px) {
     .about {
         padding: 20px 10px;
@@ -205,7 +200,6 @@ ul {
     }
 }
 
-/* Móviles pequeños */
 @media screen and (max-width: 320px) {
     .testimonial {
         padding: 15px 10px;
