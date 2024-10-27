@@ -182,6 +182,7 @@ export default {
 .method-card p {
     margin-bottom: 0;
     font-size: 1rem;
+    text-align:justify;
 }
 
 .icon {
