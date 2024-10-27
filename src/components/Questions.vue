@@ -49,7 +49,7 @@ export default {
       faqs: [
         {
           question: "Como funciona el chatbot?",
-          answer: "ML SecureBot está programado para responder preguntas sobre una amplia gama de temas relacionados con la seguridad digital, incluyendo pero no limitándose a: protección de datos, seguridad en redes, malware, phishing, contraseñas seguras y la privacidad en línea. Los usuarios pueden realizar consultas generales o específicas, y el bot proporciona respuestas claras, acompañadas de recomendaciones prácticas para fortalecer la seguridad de sus dispositivos y datos.",
+          answer: "ML SecureBot está programado para responder preguntas sobre una amplia gama de temas relacionados con la seguridad digital, incluyendo pero no limitándose a: protección de datos, seguridad en redes, malware, phishing, contraseñas seguras y la privacidad en línea.",
           open: false
         },
         {
