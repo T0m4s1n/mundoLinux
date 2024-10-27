@@ -131,6 +131,7 @@ export default {
     cursor: pointer;
     transition: background 0.3s, transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 .start-button:hover {
