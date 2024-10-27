@@ -95,6 +95,7 @@
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    text-decoration: none;
   }
 
   .chat-button:hover {
