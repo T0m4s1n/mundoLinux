@@ -64,7 +64,7 @@ export default {
         },
         {
           question: "Que beneficios me ofrece el chatbot?",
-          answer: "El chatbot te ofrece una serie de beneficios como: Vlidacion de URLS, Cuestionario de ciberseguridad interactivo, Asistencia en casos de emergencia, Consejos de seguridad, Explicacion de terminos de ciberseguridad, Alertas en tiempo real",
+          answer: "El chatbot te ofrece una serie de beneficios como: Validacion de URLS, Cuestionario de ciberseguridad interactivo, Asistencia en casos de emergencia, Consejos de seguridad, Explicacion de terminos de ciberseguridad, Alertas en tiempo real",
           open: false
         }
       ]
