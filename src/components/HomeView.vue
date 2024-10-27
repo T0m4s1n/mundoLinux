@@ -24,7 +24,7 @@
                 <h2>Tu asistente de ciberseguridad</h2>
                 <p>ML SecureBot es un avanzado asistente especializado en ciberseguridad, diseñado para operar exclusivamente a través de WhatsApp. </p>
                 <p>Su función principal es proporcionar asistencia integral en temas relacionados con la seguridad informática, ofreciendo información clara, recomendaciones prácticas y asistencia en tiempo real para ayudar a los usuarios a mantenerse seguros en el entorno digital.</p>
-                <button class="start-button">Comenzar a chatear</button>
+                <a href="https://wa.link/rdrmgl" class="start-button">Comenzar a chatear</a>
                 
                 <div class="payment-methods">
                     <div class="method-card large">
