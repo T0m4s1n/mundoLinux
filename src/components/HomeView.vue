@@ -29,18 +29,18 @@
                 <div class="payment-methods">
                     <div class="method-card large">
                         <div class="icon"><img src="../assets/icons/email.png" alt="Icono verificar correos" /></div>
-                        <h3>Verificar correos sospechosos</h3>
-                        <p>¿Tienes dudas sobre un correo? Puedo ayudarte a identificar si es seguro o no.</p>
+                        <h3>Cuestionario de ciberseguridad interactivo</h3>
+                        <p>ML SecureBot incluye un módulo educativo para evaluar y mejorar el conocimiento de los usuarios en ciberseguridad. Mediante el comando /aprender, el bot inicia un cuestionario de cinco preguntas, cada una con cuatro opciones de respuesta, que cubre conceptos fundamentales de la seguridad informática.</p>
                     </div>
                     <div class="method-card small">
                         <div class="icon"><img src="../assets/icons/asesoria.png" alt="Icono asesoría" /></div>
-                        <h3>Asesoría en seguridad</h3>
-                        <p>Recibe recomendaciones sobre cómo mejorar la seguridad de tu cuenta.</p>
+                        <h3>Respuestas sobre ciberseguridad</h3>
+                        <p>ML SecureBot está programado para responder preguntas sobre una amplia gama de temas relacionados con la seguridad digital, incluyendo pero no limitándose a: protección de datos, seguridad en redes, malware, phishing, contraseñas seguras y la privacidad en línea.</p>
                     </div>
                     <div class="method-card small">
                         <div class="icon"><img src="../assets/icons/reporte.png" alt="Icono reportar actividades" /></div>
-                        <h3>Reportar actividades inusuales</h3>
-                        <p>Si has notado algo raro en tus cuentas, házmelo saber y te guiaré sobre qué hacer.</p>
+                        <h3>Validación de URLs</h3>
+                        <p>A través del comando /validarurl, ML SecureBot permite a los usuarios verificar si un enlace web es seguro o potencialmente peligroso.</p>
                     </div>
                 </div>
             </div>
