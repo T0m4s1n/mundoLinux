@@ -13,7 +13,7 @@
                    <div class="hex-content">
                        <img src="../assets/icons/icon8.png" alt="Bitcoin">
                        <h3>Accesibilidad</h3>
-                       <p>Utiliza ML SecureBot a traves de Whatsapp en cualquier dispositivo./p>
+                       <p>Utiliza ML SecureBot a traves de Whatsapp en cualquier dispositivo.</p>
                    </div>
                </div>
                <div class="hex second-row">
