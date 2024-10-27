@@ -49,7 +49,7 @@ export default {
       faqs: [
         {
           question: "Como funciona el chatbot?",
-          answer: "Nuestro chatbot utiliza inteligencia artificial como base para detectar comportamientos sospechosos y ofrecerte soluciones rápidas y efectivas. solo tienes que iniciar una conversacion y el chatbot te guiara en todo momento.",
+          answer: "ML SecureBot está programado para responder preguntas sobre una amplia gama de temas relacionados con la seguridad digital, incluyendo pero no limitándose a: protección de datos, seguridad en redes, malware, phishing, contraseñas seguras y la privacidad en línea. Los usuarios pueden realizar consultas generales o específicas, y el bot proporciona respuestas claras, acompañadas de recomendaciones prácticas para fortalecer la seguridad de sus dispositivos y datos.",
           open: false
         },
         {
@@ -58,13 +58,13 @@ export default {
           open: false
         },
         {
-          question: "Donde puedo descargar la aplicacion?",
-          answer: "Puedes descargar la aplicacion desde nuestra pagina web, solo tienes que registrarte y listo.",
+          question: "Donde puedo acceder al chat?",
+          answer: "Puedes ingresar al chat a traves del codigo QR, o con cualquiera de los botones de chat",
           open: false
         },
         {
           question: "Que beneficios me ofrece el chatbot?",
-          answer: "El chatbot te ofrece una serie de beneficios como: Verificar correos sospechosos, Asesoria en seguridad, Reportar actividades inusuales, entre otros.",
+          answer: "El chatbot te ofrece una serie de beneficios como: Vlidacion de URLS, Cuestionario de ciberseguridad interactivo, Asistencia en casos de emergencia, Consejos de seguridad, Explicacion de terminos de ciberseguridad, Alertas en tiempo real",
           open: false
         }
       ]
