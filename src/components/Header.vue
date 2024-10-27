@@ -10,7 +10,7 @@
           </ul>
         </div>
         <div class="navbar-right">
-          <button class="chat-button">Chat</button>
+          <a href="https://wa.link/rdrmgl" class="chat-button">Chat</a>
           <span class="language-icon">🌐</span>
         </div>
       </nav>
