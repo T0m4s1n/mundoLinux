@@ -6,7 +6,7 @@
           <ul class="nav-links">
             <li><a href="#comandos">Comandos</a></li>
             <li><a href="#about">Acerca de Nosotros</a></li>
-            <li><a href="https://ml-securebot.vercel.app/">Panel de administrador</a></li>
+            <li><a href="https://ml-securebot.vercel.app/">Panel de Administrador</a></li>
           </ul>
         </div>
         <div class="navbar-right">
