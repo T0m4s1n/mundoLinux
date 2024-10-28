@@ -4,7 +4,7 @@
       <div class="faq-header">
         <h1>Tienes preguntas? puedes consultarlas aqui</h1>
         <p>
-          igualmente si sigues con dudas despues de leer este apartado puedes comunicarte con nosotros a traves de nuestro correo electronico o numero (+573007478871) y enfatiza la importancia de comunicarse con este centro para recibir ayuda especializada y directa en situaciones críticas que superen las capacidades del bot.
+          igualmente si sigues con dudas despues de leer este apartado puedes comunicarte con nosotros a traves de nuestro correo electronico o numero (+57 3007478871) y enfatiza la importancia de comunicarse con este centro para recibir ayuda especializada y directa en situaciones críticas que superen las capacidades del bot.
         </p>
       </div>
       <div class="faq-content">
