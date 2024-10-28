@@ -26,7 +26,7 @@
       <div class="contact-content">
         <div class="contact-text">
           <p>Contactanos</p>
-          <p class="contact-subtext">Te mandaremos un mensaje una vez por cada semana.        SIN SPAM.</p>
+          <p class="contact-subtext">Te mandaremos un mensaje una vez por cada semana.<br>SIN SPAM.</p>
         </div>
         <div class="contact-form">
           <input type="email" placeholder="Ingresa tu email" />
@@ -190,6 +190,11 @@ export default {
   width: 80%;
   max-width: 1200px;
   flex-direction: row;
+}
+
+.contact-text{
+  margin-right:20px;
+  margin-bottom:20px;
 }
 
 .contact-text p {
