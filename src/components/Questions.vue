@@ -26,7 +26,7 @@
       <div class="contact-content">
         <div class="contact-text">
           <p>Contactanos</p>
-          <p class="contact-subtext">Te mandaremos un mensaje una vez por cada semana. SIN SPAM.</p>
+          <p class="contact-subtext">Te mandaremos un mensaje una vez por cada semana.        SIN SPAM.</p>
         </div>
         <div class="contact-form">
           <input type="email" placeholder="Ingresa tu email" />
